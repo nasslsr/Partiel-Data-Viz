@@ -7,7 +7,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.3); /* semi-transparent white background */
+  background-color: rgba(255, 255, 255, 0.3); 
   align-items: center;
   border-radius: 10px; 
   backdrop-filter: blur(100px); 
@@ -29,15 +29,15 @@ body {
 
 .reset{
     background-color: black;
-    width: auto; /* permet au bouton de s'adapter au contenu */
-    height: auto; /* permet au bouton de s'adapter au contenu */
+    width: auto; 
+    height: auto; /
     font-size: 20px;
     color: white;
     margin-bottom: 20px;
     border: 2px solid black;
-    padding: 10px 20px; /* ajuster le padding si nécessaire */
-    line-height: 1; /* ajuster la ligne de hauteur si nécessaire */
-    text-align: center; /* assure que le texte est centré horizontalement */
+    padding: 10px 20px; 
+    line-height: 1; 
+    text-align: center;
 }
 
 
@@ -62,7 +62,7 @@ p {
 button{
     background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
     margin: 10px;
-    padding: 10px 20px; /* ajuster le padding si nécessaire */
+    padding: 10px 20px; 
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -71,10 +71,10 @@ button{
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
     display: block;
-    font-size: 14px; /* ajuster la taille de police si nécessaire */
-    line-height: 1; /* ajuster la ligne de hauteur si nécessaire */
-    vertical-align: middle; /* assure que le texte est centré verticalement */
-    width: auto; /* permet au bouton de s'adapter au contenu */
+    font-size: 14px; 
+    line-height: 1; 
+    vertical-align: middle; 
+    width: auto; 
     height: 200px;
     margin-bottom: 100px;
 }
