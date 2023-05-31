@@ -1,0 +1,87 @@
+body {
+  background-image: url('maldive.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.3); /* semi-transparent white background */
+  align-items: center;
+  border-radius: 10px; 
+  backdrop-filter: blur(100px); 
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2); 
+}
+
+
+.increase,
+.decrease {
+  height: auto; 
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px; 
+}
+
+
+.reset{
+    background-color: black;
+    width: auto; /* permet au bouton de s'adapter au contenu */
+    height: auto; /* permet au bouton de s'adapter au contenu */
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 10px 20px; /* ajuster le padding si nécessaire */
+    line-height: 1; /* ajuster la ligne de hauteur si nécessaire */
+    text-align: center; /* assure que le texte est centré horizontalement */
+}
+
+
+.group {
+  display: flex;
+  flex-basis: 50px;
+}
+
+p {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.result {
+  border: 2px solid black;
+  margin-bottom: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+button{
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    margin: 10px;
+    padding: 10px 20px; /* ajuster le padding si nécessaire */
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-size: 14px; /* ajuster la taille de police si nécessaire */
+    line-height: 1; /* ajuster la ligne de hauteur si nécessaire */
+    vertical-align: middle; /* assure que le texte est centré verticalement */
+    width: auto; /* permet au bouton de s'adapter au contenu */
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+img {
+  width: 80px;
+  height: 150px;
+}
+
+
